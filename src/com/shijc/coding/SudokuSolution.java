@@ -1,7 +1,6 @@
 package com.shijc.coding;
 
 import java.util.Scanner;
-import java.util.jar.Pack200;
 
 /**
  * 数独是一个非常有名的游戏。整个是一个9X9的大宫格，其中又被划分成9个3X3的小宫格。
