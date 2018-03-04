@@ -17,7 +17,11 @@ public class TestSort {
         //sortUtils.selectionSort(array);
 
          //快速排序
-        sortUtils.quickSort(array,0,array.length-1);
+//        sortUtils.quickSort(array,0,array.length-1);
+
+
+        //归并排序
+        sortUtils.mergeSort(array);
         printArray(array);
     }
 
