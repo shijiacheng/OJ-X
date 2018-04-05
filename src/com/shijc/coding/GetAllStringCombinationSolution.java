@@ -53,19 +53,21 @@ public class GetAllStringCombinationSolution {
         return result;
     }
 
-}
-
-/*
+    /*
 * 定义一个用来比较字符串的比较器
 */
-class MyComparator implements Comparator<String> {
+    static class MyComparator implements Comparator<String> {
 
 
-    @Override
-    public int compare(String o1, String o2) {
+        @Override
+        public int compare(String o1, String o2) {
 /*
 * 字符多的大
 */
-        return o1.length() - o2.length();
+            return o1.length() - o2.length();
+        }
     }
+
 }
+
+
