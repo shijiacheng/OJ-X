@@ -27,6 +27,10 @@ import java.util.Stack;
  * (((())))
  * 输出例子1:
  * 24
+ *
+ * 思路：遍历字符串，每次把左括号都压入栈，每次遇到右括号，先统计栈中有几个左括号，统计数与上次统计数相乘
+ * 接着弹出栈中的一个左括号
+ * 直到遍历结束，结果即为方案数
  */
 public class BracketMatch {
     public static void main(String[] args) {
