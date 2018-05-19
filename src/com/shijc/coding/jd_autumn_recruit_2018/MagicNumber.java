@@ -1,4 +1,4 @@
-package com.shijc.coding.jd_autumn_recruit_android_2018;
+package com.shijc.coding.jd_autumn_recruit_2018;
 
 import java.util.Arrays;
 import java.util.Scanner;
