@@ -16,7 +16,6 @@ import java.util.Scanner;
  * 示例1
  * 输入：
  * 5.5
- * 复制
  * 输出：
  * 6
  */
